@@ -8,7 +8,7 @@ def test_given_input():
 
     assert result == expected
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     test_given_input()
     print("Test passed!")
 
